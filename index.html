@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Enter your description here" />
+    <title>CafePizza</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!--header section starts-->
+
+    <header>
+      <a href="#" class="logo"><i class="fa-solid fa-utensils"></i>restro.</a>
+
+      <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+    <!--header section ends-->
+
+    <!--search form-->
+    <form action="" id="search-form">
+      <input type="search" name="" id="search-box" placeholder="search here...">
+      <label class="fas fa-search" for="search-box"></label>
+      <i class="fa-solid fa-xmark" id="close"></i>
+    </form>
+
+    <!--home section starts-->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dishes</span>
+              <h3>pizza</h3>
+              <p>Pizza is a beloved classic, perfect for any time of day.
+                 At our café, we serve freshly baked pizzas with a crispy crust, topped with the finest ingredients.
+                 Pair your slice with a refreshing drink, and enjoy a delicious meal in a cozy atmosphere.</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="pizza.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dishes</span>
+              <h3>zingy parcel</h3>
+              <p>Introducing our Zingy Parcel—a delightful treat wrapped in flaky pastry and bursting with flavor. 
+                Each parcel is filled with a zesty blend of spices, fresh veggies, and your choice of succulent chicken or tangy paneer. </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="zingy.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dishes</span>
+              <h3>waffle</h3>
+              <p>Indulge in our warm, golden waffles—crispy on the outside, fluffy on the inside! 
+                Topped with your choice of fresh fruits, rich chocolate sauce, whipped cream, or a drizzle of
+                 maple syrup, they are the perfect treat for breakfast or a sweet snack. </p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="waffle.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dishes</span>
+              <h3>coffee</h3>
+              <p>Experience the perfect cup of coffee at our café, where every brew is crafted with care. 
+                From rich, bold espressos to smooth, creamy lattes, we offer a variety of coffee options to suit every taste.</p>
+              <a href="#" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="coffee.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        
+      </div>
+    </section>
+    <!--home section ends-->
+
+    <!--dishes section starts-->
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">popular dishes</h1>
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <div class="box-img" style="background-image: url('burger.jpeg');"></div>
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>Rs 40</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <div class="box-img" style="background-image: url('tacos.jpeg');"></div>
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>Rs 40</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <div class="box-img" style="background-image: url('hotdog.jpeg');"></div>
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>Rs 40</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <div class="box-img" style="background-image: url('fries.jpeg');"></div>
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>Rs 40</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <div class="box-img" style="background-image: url('truffle.jpeg');"></div>
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>Rs 40</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <div class="box-img" style="background-image: url('shake.jpeg');"></div>
+          <h3>tasty food</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <span>Rs 40</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+    <!--dishes section ends-->
+
+    <!--about section starts-->
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why choose us?</h1>
+      <div class="row">
+        <div class="image">
+          <img src="coffee2.jpeg" alt="">
+        </div>
+        <div class="content">
+          <h3>Discover Your Perfect Brew & Cozy Vibe!</h3>
+          <p>Choosing our cafe means stepping into a space that blends delicious, 
+            expertly crafted coffee with a warm and welcoming atmosphere. From our signature brews to our freshly 
+            baked treats, every visit is an experience in comfort and quality.Our friendly staff and inviting decor 
+            make it easy to unwind, work, or simply enjoy the moment with your favorite cup. Come by and see why 
+            our cafe is more than just a café—it's your home away from home.</p>
+            <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>free ddelivery</span>
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <span>easy payment</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 service</span>
+              </div>
+            </div>
+            <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+    <!--about section ends-->
+
+    <!--menu section starts-->
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">today's speciality</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <div class="box-img" style="background-image: url('pizza2.jpeg');"></div>
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>A delicious fusion of Indian flavors and Italian tradition! Topped with marinated paneer tikka, 
+              crunchy bell peppers, red onions, and mozzarella cheese, all on a tangy tomato base. A savory and 
+              spicy twist that brings a bold flavor to every slice!</p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">Rs 160</span>
+          </div>
+        </div>
+        
+        <div class="box">
+          <div class="image">
+            <div class="box-img" style="background-image: url('babycorn.jpeg');"></div>
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>A delicious fusion of Indian flavors and Italian tradition! Topped with marinated paneer tikka, 
+              crunchy bell peppers, red onions, and mozzarella cheese, all on a tangy tomato base. A savory and 
+              spicy twist that brings a bold flavor to every slice!</p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">Rs 85</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <div class="box-img" style="background-image: url('noodles.jpeg');"></div>
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>A delicious fusion of Indian flavors and Italian tradition! Topped with marinated paneer tikka, 
+              crunchy bell peppers, red onions, and mozzarella cheese, all on a tangy tomato base. A savory and 
+              spicy twist that brings a bold flavor to every slice!</p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">Rs 120</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <div class="box-img" style="background-image: url('garlicbread.jpeg');"></div>
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>A delicious fusion of Indian flavors and Italian tradition! Topped with marinated paneer tikka, 
+              crunchy bell peppers, red onions, and mozzarella cheese, all on a tangy tomato base. A savory and 
+              spicy twist that brings a bold flavor to every slice!</p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">Rs 125</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <div class="box-img" style="background-image: url('paneer.jpeg');"></div>
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>A delicious fusion of Indian flavors and Italian tradition! Topped with marinated paneer tikka, 
+              crunchy bell peppers, red onions, and mozzarella cheese, all on a tangy tomato base. A savory and 
+              spicy twist that brings a bold flavor to every slice!</p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">Rs 130</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <div class="box-img" style="background-image: url('pancake.jpeg');"></div>
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>A delicious fusion of Indian flavors and Italian tradition! Topped with marinated paneer tikka, 
+              crunchy bell peppers, red onions, and mozzarella cheese, all on a tangy tomato base. A savory and 
+              spicy twist that brings a bold flavor to every slice!</p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">Rs 115</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <div class="box-img" style="background-image: url('hotchoc.jpeg');"></div>
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>A delicious fusion of Indian flavors and Italian tradition! Topped with marinated paneer tikka, 
+              crunchy bell peppers, red onions, and mozzarella cheese, all on a tangy tomato base. A savory and 
+              spicy twist that brings a bold flavor to every slice!</p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">Rs 70</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <div class="box-img" style="background-image: url('sandae.jpeg');"></div>
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>A delicious fusion of Indian flavors and Italian tradition! Topped with marinated paneer tikka, 
+              crunchy bell peppers, red onions, and mozzarella cheese, all on a tangy tomato base. A savory and 
+              spicy twist that brings a bold flavor to every slice!</p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">Rs 110</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <div class="box-img" style="background-image: url('chocolava.jpeg');"></div>
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <h3>delicious food</h3>
+            <p>A delicious fusion of Indian flavors and Italian tradition! Topped with marinated paneer tikka, 
+              crunchy bell peppers, red onions, and mozzarella cheese, all on a tangy tomato base. A savory and 
+              spicy twist that brings a bold flavor to every slice!</p>
+            <a href="#" class="btn">add to cart</a>
+            <span class="price">Rs 160</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--menu section ends-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
